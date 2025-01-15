@@ -101,3 +101,29 @@ header h1 {
 .address{
   text-align: right;
 }
+
+.left-content-picture {
+  width: 100%; /* Full width */
+  height: 400px; /* Increase the height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.left-content-picture img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.right-content-pictures .carousel-inner img {
+  height: 400px; /* Increase height */
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+}
+
+.flex-container-picture {
+  display: flex;
+  flex-direction: row;
+}
