@@ -1,0 +1,44 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Adds spacing between the two divs */
+  }
+  
+  .left-content {
+    flex: 1; /* Makes the left div take up equal space */
+    max-width: 50%; /* Optional to limit size */
+  }
+  .left-content img {
+    width: 100%; /* Ensures the image scales properly */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fills the circular frame */
+  }
+  
+  
+  .right-content {
+    flex: 1; /* Makes the right div take up equal space */
+    max-width: 50%; /* Optional to limit size */
+  }
+  
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .left-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-content {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+  }
