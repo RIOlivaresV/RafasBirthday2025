@@ -1,85 +1,118 @@
-@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Gloria+Hallelujah&display=swap');
+
+body {
+  background-color: #f4fbf4;
+  /* Very light pastel green */
+  color: #2f4f4f;
+  /* Dark gray-green for text */
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.invitation-text {
+  font-family: "Gloria Hallelujah", serif;
+  font-size: 2.5rem; /* Adjust the size */
+  color: #50C878; /* Lime green */
+  text-align: center; /* Center the text */
+  margin: 15px 0; /* Add some spacing */
+  text-shadow: 
+        0 0 5px #50C878, /* Inner green glow */
+        0 0 15px #50C878, /* Outer green glow */
+        0 0 20px rgba(0, 0, 0, 0.5); /* Subtle black shadow */
+}
+
+
+.left-content {
+  flex: 1;
+  /* Makes the left div take up equal space */
+  max-width: 50%;
+  /* Optional to limit size */
+  align-content: center;
+}
+
+.left-content img {
+  width: 100%;
+  /* Ensures the image scales properly */
+  height: auto;
+  /* Maintains aspect ratio */
+  border-radius: 50%;
+  /* Makes the image circular */
+  object-fit: cover;
+  /* Ensures the image fills the circular frame */
+}
+
+
+.right-content {
+  flex: 1;
+  /* Makes the right div take up equal space */
+  max-width: 50%;
+  /* Optional to limit size */
+}
+
 
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    gap: 20px; /* Adds spacing between the two divs */
-  }
-  
-  .left-content {
-    flex: 1; /* Makes the left div take up equal space */
-    max-width: 50%; /* Optional to limit size */
-    align-content: center;
-  }
-  .left-content img {
-    width: 100%; /* Ensures the image scales properly */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image fills the circular frame */
-  }
-  
-  
-  .right-content {
-    flex: 1; /* Makes the right div take up equal space */
-    max-width: 50%; /* Optional to limit size */
-  }
-  
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
 
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
-  
-  .left-content-picture {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .right-content-pictures {
-    flex: 1;
-    max-width: 50%;
-    align-content: center;
-  }
-  
-  .carousel-inner img {
-    max-height: 400px;
-    object-fit: cover;
-  }
 
-  .google-maps-icon {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle; /* Aligns the icon with the text */
-    margin-left: 5px; /* Adds spacing between the text and icon */
-  }
-  header {
-    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczPGz3zXtqCRNxfFTwQYYKWa5fVk0kneZaYpeF5BR4lcdlwPb6Y-7dNfaYEMWo9j3p0m_MGo0uQB7eeX3WhJTSLtua3HWN4DSptMpX4EGGID2u58yqUvgKRpnCMlGPqRGmNRk_kZberV4uVkNc_Ogidevg=w2812-h1582-s-no-gm?authuser=0');
-    background-size: cover;
-    background-position: -50%;
-    height: max-content; /* Adjust the height as needed */
-    text-align: center;
-    color: white; /* Text color */
-    line-height: 300px; /* Vertically centers text */
-}  
+.right-content-pictures {
+  flex: 1;
+  max-width: 50%;
+  align-content: center;
+}
+
+.carousel-inner img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.google-maps-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  /* Aligns the icon with the text */
+  margin-left: 5px;
+  /* Adds spacing between the text and icon */
+}
+
+header {
+  background-image: url('https://lh3.googleusercontent.com/pw/AP1GczPGz3zXtqCRNxfFTwQYYKWa5fVk0kneZaYpeF5BR4lcdlwPb6Y-7dNfaYEMWo9j3p0m_MGo0uQB7eeX3WhJTSLtua3HWN4DSptMpX4EGGID2u58yqUvgKRpnCMlGPqRGmNRk_kZberV4uVkNc_Ogidevg=w2812-h1582-s-no-gm?authuser=0');
+  background-size: cover;
+  background-position: -55%;
+  height: max-content;
+  /* Adjust the height as needed */
+  text-align: center;
+  color: #32CD32;
+  /* Lime green */
+  line-height: 300px;
+  /* Vertically centers text */
+  padding: 20px;
+  border-bottom: 4px solid #228B22;
+}
 
 header h1 {
   font-size: 2.5em;
-  z-index: 2; /* Ensures the text is above the overlay */
+  z-index: 2;
+  /* Ensures the text is above the overlay */
   margin: 0;
 }
+
 .neons {
   text-align: center;
 }
 
 .neons h1 {
- margin-left: 5rem;
- font-size: 5rem;
- text-align: left;
+  font-family: 'Codystar', cursive;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: 5rem;
+  text-align: left;
   font-weight: bold;
- -webkit-animation: glow 2s ease-in-out infinite alternate;
- -moz-animation: glow 2s ease-in-out infinite alternate;
- animation: glow 2s ease-in-out infinite alternate;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 
 .neons p {
@@ -87,24 +120,54 @@ header h1 {
 }
 
 @-webkit-keyframes glow {
-    from {
-     color: #fff;
-   text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
- }
- 
- to {
-    color: gray;
-   text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
- }
+  from {
+    color: #FF0000;
+    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700, 0 0 40px #FFD700, 0 0 50px #FFD700, 0 0 60px #FFD700, 0 0 70px #FFD700, 0 0 90px #FFD700;
+  }
+
+  to {
+    color: #FF0000;
+    text-shadow: 0 0 20px #FFD700, 0 0 30px #FFD700, 0 0 40px #FFD700, 0 0 50px #FFD700, 0 0 60px #FFD700, 0 0 70px #FFD700, 0 0 80px #FFD700, 0 1 90px #FFD700;
+  }
 }
 
-.address{
-  text-align: right;
+
+.cardParty {
+  background-color: white;
+  /* Neutral background */
+  border: 1px solid #228B22;
+  /* Darker green border */
+  border-radius: 10px;
+  /* Softer corners */
+  padding: 20px;
+  /* Padding for content inside */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Slightly larger shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+/* Add hover effect for cards */
+.cardParty:hover {
+  transform: translateY(-5px);
+  /* Lift effect */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  /* Enhanced shadow */
+}
+
+
+.address {
+  text-align: right;
+  color: #228B22;
+  /* Dark green for text */
+  font-style: italic;
+  margin-top: 10px;
+}
+
 
 .left-content-picture {
-  width: 100%; /* Full width */
-  height: 400px; /* Increase the height */
+  width: 100%;
+  flex: 1;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,12 +178,15 @@ header h1 {
 
 .left-content-picture img {
   width: 100%;
-  height: auto; /* Maintain aspect ratio */
+  height: auto;
+  /* Maintain aspect ratio */
 }
 
 .right-content-pictures .carousel-inner img {
-  height: 400px; /* Increase height */
-  object-fit: cover; /* Ensures the image fills the area without distortion */
+  height: 400px;
+  /* Increase height */
+  object-fit: cover;
+  /* Ensures the image fills the area without distortion */
 }
 
 .flex-container-picture {
