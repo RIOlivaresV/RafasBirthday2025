@@ -37,6 +37,12 @@ async function confirmAttendance() {
         return;
     }
 
+     // Check if the name already exists in the listData
+     if (listData.some((row) => row[0] === name)) {
+        alert("This name has already been added to the list.");
+        return;
+    }
+
     const rowData = [
         name,
         attendance,

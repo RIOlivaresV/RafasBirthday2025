@@ -9,6 +9,7 @@ let tokenClient={
   refreshToken:"1//04jT4Qvr2T2loCgYIARAAGAQSNwF-L9IrtDqq1yh4g3-oI9HhuKMmXeSS4elNBNUdcaBLR8EB2UjY5ongQ99VCFDY2aCUF5Vg7HE"
 };
 let lastRow = "";
+var listData;
 
 window.onload = async function () {
   readSheet();
@@ -73,6 +74,7 @@ async function readSheet() {
     if (data.values) {
       const flipContainer = document.getElementById("flip");
       flipContainer.innerHTML = ""; // Clear existing content
+      listData = data.values.slice(1);
       createFlippingText(data.values.slice(1));
       console.log("Data read successfully:", data.values);
     } else {
