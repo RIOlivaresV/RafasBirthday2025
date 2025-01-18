@@ -327,6 +327,43 @@ dialog .buttons {
 }
 
 
-/* #flip div:first-child {
-  animation: show 5s linear infinite;
-} */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Adjust as needed */
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.footer-content span {
+  float: left;
+}
+
+.footer-left a,
+.footer-right a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem; /* Adjust icon size */
+  margin-right: 1rem;
+}
+
+.footer-right a:last-child {
+  margin-right: 0; /* Remove margin for the last icon */
+}
+
+.footer-right span {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.footer a:hover {
+  color: #00aced; /* Change icon color on hover */
+}
