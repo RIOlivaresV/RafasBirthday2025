@@ -1,0 +1,13 @@
+{
+    "rsvp":[
+        {
+            "name":"Rafael",
+            "attending":true 
+        },
+        {
+            "name":"Balam",
+            "attending":true 
+        }
+        
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "douglascollegemaps",
+  "private_key_id": "0f1b32349005eca6295a823c6786b2f6493e494f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5Ms4i09e+Z1IV\n6UIb6oSvVDqFEfwMKAvAsZgSjFwdeSLhAb6i5Xpc/PnijmmWeZe2/y0Z3GBgj+of\nZnDcpHVFHKFQutmKmy/h2o44pZ1IO8H8YNfBROcG3G/wyRqu1QjH9CQmBRnCQ0aY\ncNP8t/VYgRh75Nt4ZKQvB//h3E+j2e0OLPUEaYhcXU7t9x/YxYK/wH+qtAyx27o+\n4SxmhTYHlkvgecQN7bL0B0I9Cg5NBsfhWitaGhkIqpfBdzYTczSdbxFesOUwfZDn\nBWsVHdM4yq9Gs0TcQn3hEqW87n/aeGi69fKTVWxQY49+Wf8bbR2LXgwtFXzlsUx3\nY2nh6mVXAgMBAAECggEACe7SpYWNLbYm7evr0sl6QlkXJmn3hcNkFfqweFY03pPP\nrhfE3MHIFVKwKFmRCjQNUhBPn/J07NjrKrH43ayoaYOGl2jeIBQAtnFdbWZckDI8\nTkf3anNCnNiX3Gc82iGs7eSHR87AOe4XzDdI92X6b7vEz2hP6R4kvC0GqVuCnfwL\nrfzkqLx1qWsFJ6jYrrwgWoOMT2Z3ZzxUXzdMAPXkf2tLNsdHSudGEIVXzf6yKY1v\n4Oz6/YSw+ncJ2AnREIEPf0D1V9Osk3qabj95wvclBVZ8JCkEVMEjTcn/ETkgAXid\nfs/TKLG6OiI2fnqyVF3H8aIQhcB0VbrMKxbgwkduGQKBgQD4kYW19sm6ssL1/VQa\nRjtRX4HLbiJmd4q6tVHDJPL3OFhEoiTxf/NRO7eNsnxJCQryE+dLO7TUNrBE/V0I\ny+eRrdZh0llR3+koXrL71rQBUeHN6QgICLAWkd6NM3plZ/nhKe4esZU8YiOD0eIk\nitVKcH7/ZaGpPFT77Y7KRjAV9QKBgQC+vEQA9KJ4GGbQeoFZW7ZSZPxw3zdagWss\nSduA1aTIp8iBmAXeaarHsqx3xppJN3xsPpCrWlvDwLc5RQmQYPRLTDQ1bT37hj4u\n7ypzJQCUncA0tchViGBdVj8H6mCRaMM2HFUaasDr2BPdTY5Mr5xj72QHCfLWV8fR\n94Kgiy5ymwKBgAGsMQMlcvwPoeI33y4CFPoaM2xkBFU+Lq/M8ozmnb/uICHuGWOK\nod+FEFoivlVbezhfy+mksDXRXGRKdCrP/HHtgojL+o/jetUrtfad3j44B9Xz4Hr1\nXAH6302B8CvohDTwrEqGlWN/oY+MhQIL8R18Hk6np2vVHRlI4vIXgNFVAoGBALTD\nunNpZh0Ji09j+vjUOXvnJ3RVqKFG7GqB6N02HUDp+tYPXOiIHom6ZUfy2kAvrOTt\nerBbJ4LjPwKw0jqaGIzQQN6tlMOvW3mhwwpzdBRlWUbbTWz6ndF3rq7yyuikb/X1\nbhZmPEaId3MSUJ2PBVmVBKjDHflUIhV1TMCYh8GnAoGBAIpdKeCAWYB7JEuKLdiS\nmMMH8v2rRVh/Y0FlY5tf2Ob1ahV/RLDaRT3A4Y7TkbM2J11ZvCNdCBRTif/5JtHT\ntR+AHvBJq/JXzYIkTBbAEwkH89Iez9cEBeVVbVfMcbIz0Pn9lpj0eg22whAuKKlt\n0HltTCIcgAV0Qs/+fkRLJvSp\n-----END PRIVATE KEY-----\n",
+  "client_email": "rafabithdayrvps@douglascollegemaps.iam.gserviceaccount.com",
+  "client_id": "109531354084988723391",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rafabithdayrvps%40douglascollegemaps.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
