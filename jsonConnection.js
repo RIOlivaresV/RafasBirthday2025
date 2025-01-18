@@ -1,7 +1,7 @@
 const CLIENT_ID = "813373129825-gia17moispgcoaepqarqeti5hp2vc8l5.apps.googleusercontent.com";
 const SCOPES = "https://www.googleapis.com/auth/spreadsheets";
 const apiKey = "AIzaSyDqPoOIYy2eaRL05CMQ-AKCM608YF2e1TA";
-const CLIENT_SECRET="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";
+const CS="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";
 const sheetId = "1OnT-0SlW_4N_uvFNCulXNIQnure3BkvWmFq7qXrq_oA";
 const sheetName = "RSVP";
 let tokenClient={
@@ -33,7 +33,7 @@ async function getNewAccessToken(refreshToken) {
 
   const body = new URLSearchParams({
     client_id: CLIENT_ID,
-    client_secret: CLIENT_SECRET, // Obtain this from your Google Cloud Console
+    client_secret: CS, // Obtain this from your Google Cloud Console
     refresh_token: tokenClient.refreshToken,
     grant_type: "refresh_token",
   });
