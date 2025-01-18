@@ -110,7 +110,7 @@ header h1 {
   font-size: 5rem;
   text-align: left;
   font-weight: bold;
-  -webkit-text-stroke: 1px #fff; /* Red border */
+  -webkit-text-stroke: 1px #f6f0cf; /* Red border */
   -webkit-animation: glow 2s ease-in-out infinite alternate;
   -moz-animation: glow 2s ease-in-out infinite alternate;
   animation: glow 2s ease-in-out infinite alternate;
@@ -123,12 +123,12 @@ header h1 {
 
 @-webkit-keyframes glow {
   from {
-    color: #B22222;
+    color: #f6f0cf;
     text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700, 0 0 40px #FFD700, 0 0 50px #FFD700, 0 0 60px #FFD700, 0 0 70px #FFD700, 0 0 90px #FFD700;
   }
 
   to {
-    color: #B22222;
+    color: #f6f0cf;
     text-shadow: 0 0 20px #FFD700, 0 0 30px #FFD700, 0 0 40px #FFD700, 0 0 50px #FFD700, 0 0 60px #FFD700, 0 0 70px #FFD700, 0 0 80px #FFD700, 0 1 90px #FFD700;
   }
 }
