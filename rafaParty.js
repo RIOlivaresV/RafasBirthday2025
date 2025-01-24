@@ -23,7 +23,7 @@ function pictures() {
 }
 
 function spotify(params) {
-    const spotifyLink = "https://open.spotify.com/playlist/4wXx9SJKtHUzwZNTdA4BdL?si=k2C-thxNShy_doqgsZA7iA&pt=3fd712cc64219742020a39dce4d949a6&pi=k8VjtDy3Tp6-s"; 
+    const spotifyLink = "https://open.spotify.com/playlist/4wXx9SJKtHUzwZNTdA4BdL?si=e283afa746524eb4"; 
     window.open(spotifyLink, "_blank");
 }
 
